@@ -1,4 +1,4 @@
-# Modelling Saga as a State Machine.
+# Modelling Saga as a State Machine
 
 ## Overview
 In a micro-services architecture, transactions that are within a single service use mainly ACID transactions. The challenge, however, lies in implementing transactions for operations that update state owned by multiple services, and that uses further multiple databases and message brokers. In this case, the application must use an elaborate mechanism to manage transactions. We will also cover how sagas orchestrator can be used as a state machine to manage entity states in a distributed system.
