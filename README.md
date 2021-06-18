@@ -36,9 +36,9 @@ A good way to model a saga orchestrator is as a state machine. A state machine c
 ## Orchestrator Model
 Saga orchestration is built using below stack:
 
-Apache Kafka - event store and distribution.
-Axon framework - saga management
-State store - in memory
-State management - saga driven
+* Apache Kafka - event store and distribution.
+* Axon framework - saga management
+* State store - in memory
+* State management - Saga driven
 
 
