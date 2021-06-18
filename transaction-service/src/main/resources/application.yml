@@ -1,0 +1,5 @@
+app:
+  stream:
+    topic:
+      from: order-cii-creations
+      to: order-replies
